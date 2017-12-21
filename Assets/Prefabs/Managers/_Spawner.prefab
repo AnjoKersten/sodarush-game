@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012305811568}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012305811568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012762607464}
+  - component: {fileID: 114000013621769040}
+  m_Layer: 0
+  m_Name: _Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012762607464
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012305811568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 170, y: -35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013621769040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012305811568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6bb217ff2e2b24c8fa5f4d0747d779, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildings:
+  - {fileID: 4000011532569500, guid: 5d3394d72ce9852428ffa596169d0808, type: 2}
+  - {fileID: 4000013565375370, guid: 8eee691d5914f534ca83a26873c5e9f8, type: 2}
+  - {fileID: 4000014197600030, guid: d0716d160245383488888589d266431a, type: 2}
+  - {fileID: 4000010825538350, guid: 4f0414605a61eba4a8adfb5a672aab3a, type: 2}
+  - {fileID: 4000011086947398, guid: afb5a146845cb4b1980a21a9c0e10d60, type: 2}
+  - {fileID: 4000012552781762, guid: fdcc741d03c0445c5adab811d64e7ee0, type: 2}
+  - {fileID: 4000011104609416, guid: f79d280a741e74b69bb2d664508480da, type: 2}
+  - {fileID: 4000011528191154, guid: e64f923911da2476e922e7bd54183d48, type: 2}
+  - {fileID: 4000011533915058, guid: 549f18d97e0804e68b5e3c46e376722e, type: 2}
+  player1Transform: {fileID: 0}
+  player2Transform: {fileID: 0}
+  player1Pos: {x: 0, y: 0}
+  player2Pos: {x: 0, y: 0}
+  currentBuilding: 0
+  allowSpawn: 0
